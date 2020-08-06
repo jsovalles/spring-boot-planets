@@ -13,6 +13,19 @@ mvn spring-boot:run
 ```
 Después de que el comando termine de desplegar se puede consumir los servicios correspondientes. [Ejemplo](http://localhost:8080/planetas)
 
+Link de la consola H2 http://localhost:8080/h2-console
+
+Link de los diferentes servicios
+```
+listPlanetas - http://localhost:8080/planetas
+
+getPlaneta - http://localhost:8080/planetas/{id}
+
+listPersonas - http://localhost:8080/personas
+
+getPersona - http://localhost:8080/personas/{id}
+```
+
 ## Descripción del proyecto
 
 Se requiere construir una aplicación que le permita al usuario identificar los planetas y personas registrados en la base de datos, y la relación que hay entre sí (Modelo relacional),para efectos de estadísticas y control, teniendo en consideración las siguientes características:
